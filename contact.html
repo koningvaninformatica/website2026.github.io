@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>contact</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/opmaak.css">
+    <style>
+        body {
+            background-image: url('afb/bergen2.JPEG');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+<div class="sticky-menu">
+    <ul>
+        <li><a href="index.html">HOME</a></li> 
+        <li><a href="aanbiedingen.html">SKI AANBIEDINGEN</a></li> 
+        <li>
+            <a href="#collectie">SKI COLLECTIE</a>
+            <div class="dropdown">
+                <a href="heren.html">Heren</a> 
+                <a href="dames.html">Dames</a> 
+                <a href="accesoires.html">Accesoires</a> 
+                <a href="skis.html">Skis</a> 
+            </div>
+        </li>
+        <li><a href="contact.html">CONTACT</a></li> 
+        <li><a href="overons.html">OVER ONS</a></li> 
+    </ul>
+</div>
+
+<div class="contact">
+    <h1>CONTACT</h1>
+    <p><b>Wie moet je bereiken?</b><br>
+	<b> Ga eventueel naar <a href="https://www.marnixcollege.nl" target="_blank">marnixcollege.nl</a></b></p>
+</div>
+
+<div class="table-container">
+    <table>
+        <tr>
+            <th>Wie</th>
+            <th>Functie</th>
+            <th>E-mail adres</th>
+        </tr>
+        <tr>
+            <td><i>Willie</i></td>
+            <td>Eigenaar</td>
+            <td><u>prinspils@fakemail.com</u></td>
+        </tr>
+        <tr>
+            <td><i>maxima</i></td>
+            <td>Product designer</td>
+            <td><u>maxima@fakemail.com</u></td>
+        </tr>
+        <tr>
+            <td><i>Beatrix</i></td>
+            <td>Website Host</td>
+            <td><u>beatrix@fakemail.com</u></td>
+        </tr>
+    </table>
+</div>
+
+<div class="email-container">
+    <h2>Neem contact met ons op</h2>
+    <p>Heb je vragen of wil je met ons in contact komen? Laat hier je e-mailadres en bericht achter, en wij reageren zo snel mogelijk.</p>
+    <form id="contactForm">
+        <input type="email" id="emailInput" placeholder="Voer je e-mailadres in" required>
+        <textarea id="messageInput" placeholder="Typ hier je bericht..." required></textarea>
+        <button type="submit">Verstuur</button>
+    </form>
+    <p id="successMessage" class="hidden">Bedankt voor je bericht! We nemen zo snel mogelijk contact met je op. 📩</p>
+
+<script src="JS/email.js"></script>  
+
+</div>
+
+</body>
+</html>
